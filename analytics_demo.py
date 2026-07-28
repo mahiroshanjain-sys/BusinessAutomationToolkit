@@ -1,0 +1,10 @@
+from utilities.analytics import *
+print("=" * 40)
+print("BUSINESS ANALYTICS")
+print("=" * 40)
+print("Percentage :", percentage(465, 500))
+print("Growth Rate :", growth_rate(350000, 450000))
+p = profit(500000, 375000)
+print("Profit :", p)
+print("Profit Margin :", profit_margin(500000, p))
+print("Loss :", loss(300000, 450000))
